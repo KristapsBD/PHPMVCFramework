@@ -1,0 +1,15 @@
+{
+    "name": "krist/phpmvc-framework",
+    "authors": [
+        {
+            "name": "Kristaps Briks",
+            "email": "kristaps.briks@inbox.lv"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
