@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4fe3589809c90b8e7a0c8694c0b3ebb",
+    "content-hash": "712ed03e1f70a3107351519f5756b57a",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -70,7 +70,7 @@
         },
         {
             "name": "krist/php-mvc-core",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KristapsBD/php-mvc-core.git",
@@ -82,7 +82,6 @@
                 "reference": "508bcb8b61c7988a2d9cb59fba2b17021504c304",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -98,7 +97,7 @@
             ],
             "support": {
                 "issues": "https://github.com/KristapsBD/php-mvc-core/issues",
-                "source": "https://github.com/KristapsBD/php-mvc-core/tree/master"
+                "source": "https://github.com/KristapsBD/php-mvc-core/tree/v1.0.2"
             },
             "time": "2022-08-22T15:26:49+00:00"
         },
@@ -509,9 +508,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "krist/php-mvc-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
