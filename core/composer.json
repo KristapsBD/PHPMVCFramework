@@ -1,0 +1,10 @@
+{
+    "name": "krist/php-mvc-core",
+    "authors": [
+        {
+            "name": "Kristaps Briks",
+            "email": "kristaps.briks@inbox.lv"
+        }
+    ],
+    "require": {}
+}
