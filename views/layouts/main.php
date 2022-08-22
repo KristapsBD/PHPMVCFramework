@@ -1,6 +1,6 @@
 <?php
 
-use app\core\Application;
+use krist\phpmvc\Application;
 
 ?>
 <!doctype html>

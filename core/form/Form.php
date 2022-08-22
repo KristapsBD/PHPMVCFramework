@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\form;
+namespace krist\phpmvc\form;
 
-use app\core\Model;
-use app\core\form\Field;
+use krist\phpmvc\Model;
+use krist\phpmvc\form\Field;
 
 class Form
 {

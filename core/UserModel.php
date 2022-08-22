@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace krist\phpmvc;
 
-use app\core\db\DbModel;
+use krist\phpmvc\db\DbModel;
 
 abstract class UserModel extends DbModel
 {

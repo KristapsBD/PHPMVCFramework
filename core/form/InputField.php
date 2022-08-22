@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\form;
+namespace krist\phpmvc\form;
 
-use app\core\form\BaseField;
-use app\core\Model;
+use krist\phpmvc\form\BaseField;
+use krist\phpmvc\Model;
 
 class InputField extends BaseField
 {

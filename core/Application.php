@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace krist\phpmvc;
 
-use app\core\db\Database;
+use krist\phpmvc\db\Database;
 
 class Application
 {
@@ -60,7 +60,7 @@ class Application
         return $this->controller;
     }
     
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\krist\phpmvc\Controller $controller): void
     {
         $this->controller = $controller;
     }

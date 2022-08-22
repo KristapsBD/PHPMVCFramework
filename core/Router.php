@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace krist\phpmvc;
 
-use app\core\exception\NotFoundException;
+use krist\phpmvc\exception\NotFoundException;
 
 class Router
 {
