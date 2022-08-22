@@ -14,7 +14,7 @@ class Application
     public Database $db;
     public static Application $app;
     public Controller $controller;
-    public ?DbModel $user;
+    public ?UserModel $user;
 
     public function __construct($rootPath, array $config)
     {
@@ -26,6 +26,7 @@ class Application
         $this->response = new Response();
         $this->session = new Session();
         $this->router = new Router($this->request, $this->response);
+        $this->user = null;
 
         $primaryValue = $this->session->get('user');
         if ($primaryValue){
@@ -49,12 +50,13 @@ class Application
         $this->controller = $controller;
     }
 
-    public function login(DbModel $user)
+    public function login(UserModel $user)
     {
         $this->user = $user;
-        $primaryKey = $user->primaryKey();
+        $className = get_class($user);
+        $primaryKey = $className::primaryKey();
         $primaryValue = $user->{$primaryKey};
-        $this->session->set('user', $primaryValue);
+        Application::$app->session->set('user', $primaryValue);
         return true;
     }
 
