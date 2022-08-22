@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3817ac8bf773b11f58ecbd0bc7c8804f",
+    "content-hash": "b4fe3589809c90b8e7a0c8694c0b3ebb",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -67,6 +67,40 @@
                 }
             ],
             "time": "2022-07-30T15:56:11+00:00"
+        },
+        {
+            "name": "krist/php-mvc-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KristapsBD/php-mvc-core.git",
+                "reference": "508bcb8b61c7988a2d9cb59fba2b17021504c304"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KristapsBD/php-mvc-core/zipball/508bcb8b61c7988a2d9cb59fba2b17021504c304",
+                "reference": "508bcb8b61c7988a2d9cb59fba2b17021504c304",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "krist\\phpmvc\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Kristaps Briks",
+                    "email": "kristaps.briks@inbox.lv"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/KristapsBD/php-mvc-core/issues",
+                "source": "https://github.com/KristapsBD/php-mvc-core/tree/master"
+            },
+            "time": "2022-08-22T15:26:49+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -475,7 +509,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "krist/php-mvc-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
